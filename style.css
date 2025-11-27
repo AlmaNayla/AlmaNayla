@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+body
+{
+  background-color: #18223D;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 100;
+}
+.hedOne
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 4vw;
+  gap: 4vw;
+}
+h1
+{
+  color: #9DB7D8;
+  font-size: 300%;
+}
+p
+{
+  color: #9DB7D8;
+  font-size: 190%;
+  max-width: min(80ch, 90vw);
+  text-align: center;
+  line-height: 1.5;
+}
+h2
+{
+  color: #9DB7D8;
+}
+h3
+{
+  color: #9DB7D8;
+}
+#prof
+{
+  width: clamp(100px, 25vw, 220px);
+  height: clamp(100px, 25vw, 220px);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+}
